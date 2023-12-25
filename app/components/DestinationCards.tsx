@@ -1,4 +1,6 @@
 import Image from "next/image";
+import BasicModal from "./Modal";
+import { DestinationInfo } from "./DestinationInfo";
 
 export interface DestinationProps {
   id: number;
@@ -22,8 +24,12 @@ const DestinationCards = ({
         priority
         className="object-cover aspect-[3/2] rounded-lg"
       />
-      <div className="absolute bg-white bg-opacity-70 text-black text-center w-full hover:bg-black hover:text-white rounded-b-lg bottom-0">
-        <h3 className="uppercase">{location}</h3>
+      <div className="absolute flex justify-center bg-gray-600 bg-opacity-70 text-black text-center w-full hover:bg-black hover:text-white rounded-b-lg bottom-0">
+        <BasicModal
+          icon={location}
+          title={location}
+          extraContent={<DestinationInfo destinationDesc={description} />}
+        />
       </div>
     </div>
   );

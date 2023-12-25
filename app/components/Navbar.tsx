@@ -1,11 +1,10 @@
-import React from "react";
+"use client";
+
 import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import BasicModal from "./Modal";
 import Navlinks from "./Navlinks";
 import { navlinks } from "@/lib/utils";
 import Link from "next/link";
-// import * as dayjs from "dayjs";
-// dayjs().format();
 
 const Navbar = () => {
   return (
@@ -33,7 +32,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center md:hidden">
-          <BasicModal title={"Classic Travel+"} extraContent={<Navlinks />} />
+          <BasicModal
+            title={"Classic Travel+"}
+            extraContent={<Navlinks />}
+            icon={"menu"}
+          />
         </div>
       </div>
     </div>

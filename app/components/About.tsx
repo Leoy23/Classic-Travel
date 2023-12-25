@@ -1,17 +1,17 @@
 const About = () => {
   return (
-    <div className="p-8 lg:p-16 bg-black text-white">
-      <div className="p-4">
-        <h2 className="text-3xl lg:text-7xl">About</h2>
+    <div className="p-8 lg:p-16 bg-black text-white" id="about">
+      <div className="pb-5">
+        <h2 className="text-3xl lg:text-7xl">Discover Our Journey</h2>
       </div>
       <div className="mt-4">
         <p>
-          Discover the essence of sophisticated exploration with Classic Travel,
-          where elegance and minimalism converge to redefine luxury vacations.
-          At Classic Travel, we specialize in creating high-class travel
-          experiences that epitomize grace and refinement. Our approach is
-          rooted in a timeless aesthetic, mirroring the understated luxury that
-          true sophistication embodies.{" "}
+          Embark on a journey of sophisticated exploration with Classic Travel,
+          where elegance and minimalism unite to redefine luxury vacations.
+          Specializing in crafting high-class travel experiences, Classic Travel
+          is synonymous with grace and refinement. Our approach is deeply rooted
+          in a timeless aesthetic, reflecting the understated luxury and true
+          sophistication that our discerning clients seek.{" "}
         </p>
         <br />
         <p>
@@ -41,8 +41,8 @@ const About = () => {
           appointment with one of our talented travel agents.
         </p>
       </div>
-      <div className="pt-12">
-        <button className="w-44 h-12 rounded-lg border-white border-2 hover:bg-white hover:text-black">
+      <div className="pt-12 flex justify-center md:justify-start">
+        <button className="w-44 h-12 rounded-lg border-white border-2 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black">
           BOOK NOW
         </button>
       </div>
