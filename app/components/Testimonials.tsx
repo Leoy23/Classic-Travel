@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="mb-12">
         <h2 className="text-3xl lg:text-7xl text-center">Testimonials</h2>
       </div>
-      <div className="flex flex-col items-center justify-center gap-2 md:flex-row ">
+      <div className="flex flex-col items-center justify-center gap-8 md:flex-row ">
         <div className="flex flex-col items-center">
           <Image
             src={p1}
@@ -22,11 +22,8 @@ const Testimonials = () => {
           <span className="mb-2">Kansas City, MO</span>
           <div className="border-2 border-black p-4 rounded-lg">
             <p>
-              I recently used this travel app for my family vacation, and it was
-              a game-changer! The ease of navigating through various travel
-              options made planning stress-free. The deals were not only
-              fantastic but visually stunning, making it exciting to choose our
-              next adventure. It truly transformed our travel experience!
+              This travel app made planning our family vacation effortless and
+              exciting. The easy navigation and stunning deals were impressive!
             </p>
           </div>
         </div>
@@ -42,11 +39,9 @@ const Testimonials = () => {
           <span className="mb-2">San Francisco, CA</span>
           <div className="border-2 border-black p-4 rounded-lg">
             <p>
-              As a frequent traveler, I&apos;ve tried numerous apps, but this
-              one stands out! The simplicity of scheduling trips is phenomenal.
-              I was impressed by how quickly I could book my dream vacation, and
-              the deals presented were both enticing and affordable. It&apos;s
-              my new go-to for all my travel needs!
+              As a frequent traveler, I&apos;m amazed by the simplicity and
+              efficiency of this app. Booking is quick, and the deals are
+              fantastic!
             </p>
           </div>
         </div>
@@ -62,11 +57,8 @@ const Testimonials = () => {
           <span className="italic mb-2">Austin, TX</span>
           <div className="border-2 border-black p-4 rounded-lg">
             <p>
-              This travel app exceeded all my expectations! From the beautiful
-              display of travel deals to the user-friendly interface, every
-              aspect of the app made my journey planning a delight. I
-              particularly loved the hassle-free booking process. It&apos;s been
-              an absolute lifesaver for my busy schedule!
+              Exceeded expectations! The user-friendly interface and hassle-free
+              booking have made this my go-to app for travel.
             </p>
           </div>
         </div>
